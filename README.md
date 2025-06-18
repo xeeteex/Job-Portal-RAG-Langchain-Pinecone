@@ -1,4 +1,4 @@
-# Job Portal RAG with LangChain and Pinecone
+# CLI based RAG with LangChain and Pinecone
 
 ## Description
 A Retrieval-Augmented Generation (RAG) system designed for job recruitment. This application processes resumes and other documents, stores them in a vector database (Pinecone), and provides an interactive interface to query the documents using natural language.
@@ -10,7 +10,6 @@ A Retrieval-Augmented Generation (RAG) system designed for job recruitment. This
 - **Language Models**: Integration with Mistral AI and OpenAI models
 - **Interactive CLI**: User-friendly command-line interface
 - **Monitoring**: LangSmith integration for tracking and analytics
-- **API**: RESTful endpoints for integration with other services
 
 ## 🚀 Prerequisites
 
@@ -82,24 +81,7 @@ A Retrieval-Augmented Generation (RAG) system designed for job recruitment. This
    - View monitoring reports
    - Clear existing data
 
-### API Mode
-Start the FastAPI server:
-```bash
-python -m uvicorn src.api.server:app --reload
-```
 
-The API will be available at `http://localhost:8000` with interactive documentation at `http://localhost:8000/docs`
-
-## 📊 Monitoring
-
-To enable LangSmith monitoring:
-1. Sign up at [LangSmith](https://smith.langchain.com/)
-2. Get your API key and add it to the `.env` file
-3. The application will automatically log all interactions
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
