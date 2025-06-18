@@ -64,7 +64,7 @@ A Retrieval-Augmented Generation (RAG) system designed for job recruitment. This
 
 ### CLI Mode
 1. **Prepare your documents**
-   - Place your PDF, TXT, or DOCX files in the `data/tmp` directory
+   - Place your PDF files in the `data/tmp` directory
    - The application will automatically process and index these documents
 
 2. **Run the application**
